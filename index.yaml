@@ -3,7 +3,7 @@ entries:
   redis:
   - apiVersion: v2
     appVersion: 0.16.0
-    created: "2024-08-31T06:10:18.110070107Z"
+    created: "2024-08-31T22:57:07.120857208Z"
     description: Provides easy redis setup definitions for Kubernetes services, and
       deployment.
     digest: 51820632ecc1d9527c799bb9ac146421683ebd9cf985d868628ce8193afb2ee3
@@ -28,7 +28,7 @@ entries:
   redis-cluster:
   - apiVersion: v2
     appVersion: 0.16.0
-    created: "2024-08-31T06:10:18.11153635Z"
+    created: "2024-08-31T22:57:07.122228566Z"
     description: Provides easy redis setup definitions for Kubernetes services, and
       deployment.
     digest: 97cacd8a1e4593fbaabca9fd9b95a349e088e3a7ef5a74727d7f2fd82110066f
@@ -53,7 +53,7 @@ entries:
   redis-operator:
   - apiVersion: v2
     appVersion: 0.18.0
-    created: "2024-08-31T06:10:18.133526719Z"
+    created: "2024-08-31T22:57:07.143654611Z"
     dependencies:
     - alias: certmanager
       condition: certmanager.enabled
@@ -62,7 +62,7 @@ entries:
       version: v1.12.4
     description: Provides easy redis setup definitions for Kubernetes services, and
       deployment.
-    digest: d0abd0de3dbdd39cd4f7ebdd77e3a3ef333515af2e68d7def7e214262fcde4be
+    digest: 4e664cfb89464c4f66fcf96e1673b70d701f11dddec4484d15e85738958a15ee
     home: https://github.com/tonyfieit75/z-redis-operator
     icon: https://github.com/tonyfieit75/z-redis-operator/raw/master/static/redis-operator-logo.svg
     keywords:
@@ -81,7 +81,7 @@ entries:
     version: 0.18.1
   - apiVersion: v2
     appVersion: 0.18.0
-    created: "2024-08-31T06:10:18.155072463Z"
+    created: "2024-08-31T22:57:07.165581438Z"
     dependencies:
     - alias: certmanager
       condition: certmanager.enabled
@@ -110,7 +110,7 @@ entries:
   redis-replication:
   - apiVersion: v2
     appVersion: 0.16.2
-    created: "2024-08-31T06:10:18.134940663Z"
+    created: "2024-08-31T22:57:07.144635137Z"
     description: Provides easy redis setup definitions for Kubernetes services, and
       deployment.
     digest: b1ee9dab94c4f8259cd0d1d259e61bc8bda19606fe60bf14e971073ec77aa7d0
@@ -135,7 +135,7 @@ entries:
   redis-sentinel:
   - apiVersion: v2
     appVersion: 0.16.3
-    created: "2024-08-31T06:10:18.13598263Z"
+    created: "2024-08-31T22:57:07.145681793Z"
     description: Provides easy redis setup definitions for Kubernetes services, and
       deployment.
     digest: 51d471092e286ef734bb7ae1f25c56027f2fc12bf5dc33c32691babe2598cb69
@@ -157,4 +157,4 @@ entries:
     urls:
     - https://tonyfieit75.github.io/helm-charts/redis-sentinel-0.16.3.tgz
     version: 0.16.3
-generated: "2024-08-31T06:10:18.108200724Z"
+generated: "2024-08-31T22:57:07.119136377Z"
