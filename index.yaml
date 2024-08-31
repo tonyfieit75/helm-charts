@@ -1,0 +1,32 @@
+apiVersion: v1
+entries:
+  redis-operator:
+  - apiVersion: v2
+    appVersion: 0.18.0
+    created: "2024-08-30T23:32:02.778675171Z"
+    dependencies:
+    - alias: certmanager
+      condition: certmanager.enabled
+      name: cert-manager
+      repository: https://charts.jetstack.io
+      version: v1.12.4
+    description: Provides easy redis setup definitions for Kubernetes services, and
+      deployment.
+    digest: 986158151ccfa0cbcc22d214ea7adeb4bfb68ddc7bbc449ec0f0eb14a125ae48
+    home: https://github.com/tonyfieit75/z-redis-operator
+    icon: https://github.com/tonyfieit75/z-redis-operator/raw/master/static/redis-operator-logo.svg
+    keywords:
+    - operator
+    - redis
+    - opstree
+    - kubernetes
+    - openshift
+    maintainers:
+    - name: Tony
+    name: redis-operator
+    sources:
+    - https://github.com/tonyfieit75/z-redis-operator
+    urls:
+    - https://tonyfieit75.github.io/helm-charts/redis-operator-0.18.1.tgz
+    version: 0.18.1
+generated: "2024-08-30T23:32:02.757757687Z"
