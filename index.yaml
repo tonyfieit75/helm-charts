@@ -3,16 +3,15 @@ entries:
   redis:
   - apiVersion: v2
     appVersion: 0.16.0
-    created: "2024-09-01T01:22:44.954690296Z"
+    created: "2024-12-21T00:24:38.684056433Z"
     description: Provides easy redis setup definitions for Kubernetes services, and
       deployment.
-    digest: 8999afb3c572332409b6ab68c0cd135363fcda416bdf9668c27fbe79a8a29948
+    digest: 3c451c1cd898ef16c7395271bd5b33d71d4caa25f57b278bf3d4c4535f6041bc
     home: https://github.com/tonyfieit75/z-redis-operator
     icon: https://github.com/tonyfieit75/z-redis-operator/raw/master/static/redis-operator-logo.svg
     keywords:
     - operator
     - redis
-    - opstree
     - kubernetes
     - openshift
     - redis-exporter
@@ -28,16 +27,15 @@ entries:
   redis-cluster:
   - apiVersion: v2
     appVersion: 0.16.0
-    created: "2024-09-01T01:22:44.95625413Z"
+    created: "2024-12-21T00:24:38.684912918Z"
     description: Provides easy redis setup definitions for Kubernetes services, and
       deployment.
-    digest: fe382212361729255a60885cfca58d5d2425bb4ac93276a2b3c23f2524a70718
+    digest: 5079f17f70bc887078f3064caf137e726d933f6e860b431457c8c73853f1eac7
     home: https://github.com/tonyfieit75/z-redis-operator
     icon: https://github.com/tonyfieit75/z-redis-operator/raw/master/static/redis-operator-logo.svg
     keywords:
     - operator
     - redis
-    - opstree
     - kubernetes
     - openshift
     - redis-exporter
@@ -53,7 +51,7 @@ entries:
   redis-operator:
   - apiVersion: v2
     appVersion: 0.18.0
-    created: "2024-09-01T01:22:44.985233619Z"
+    created: "2024-12-21T00:24:38.718215365Z"
     dependencies:
     - alias: certmanager
       condition: certmanager.enabled
@@ -62,7 +60,7 @@ entries:
       version: v1.12.4
     description: Provides easy redis setup definitions for Kubernetes services, and
       deployment.
-    digest: 4e664cfb89464c4f66fcf96e1673b70d701f11dddec4484d15e85738958a15ee
+    digest: 986158151ccfa0cbcc22d214ea7adeb4bfb68ddc7bbc449ec0f0eb14a125ae48
     home: https://github.com/tonyfieit75/z-redis-operator
     icon: https://github.com/tonyfieit75/z-redis-operator/raw/master/static/redis-operator-logo.svg
     keywords:
@@ -81,7 +79,7 @@ entries:
     version: 0.18.1
   - apiVersion: v2
     appVersion: 0.18.0
-    created: "2024-09-01T01:22:45.004375076Z"
+    created: "2024-12-21T00:24:38.740800196Z"
     dependencies:
     - alias: certmanager
       condition: certmanager.enabled
@@ -110,16 +108,15 @@ entries:
   redis-replication:
   - apiVersion: v2
     appVersion: 0.16.2
-    created: "2024-09-01T01:22:44.986277431Z"
+    created: "2024-12-21T00:24:38.719135848Z"
     description: Provides easy redis setup definitions for Kubernetes services, and
       deployment.
-    digest: 830a3899cd974fa2c94ef0b45e6c4dc1db861b78c6d668ef96873d5e92c35d01
+    digest: c091cc08c08a5f6cf491e22ffbfa23086041dc807e0fc3024203e1cb66475fab
     home: https://github.com/tonyfieit75/z-redis-operator
     icon: https://github.com/tonyfieit75/z-redis-operator/raw/master/static/redis-operator-logo.svg
     keywords:
     - operator
     - redis
-    - opstree
     - kubernetes
     - openshift
     - redis-exporter
@@ -135,16 +132,15 @@ entries:
   redis-sentinel:
   - apiVersion: v2
     appVersion: 0.16.3
-    created: "2024-09-01T01:22:44.987265178Z"
+    created: "2024-12-21T00:24:38.720106661Z"
     description: Provides easy redis setup definitions for Kubernetes services, and
       deployment.
-    digest: d9f14562bddc4c6e7758653922677dd38b7542be8b493b9c10130b0605290314
+    digest: cab5d14cbb27681fc8ff2c74fbd1fa97164d04a52ed7773e87dc3318dc9f87f9
     home: https://github.com/tonyfieit75/z-redis-operator
     icon: https://github.com/tonyfieit75/z-redis-operator/raw/master/static/redis-operator-logo.svg
     keywords:
     - operator
     - redis
-    - opstree
     - kubernetes
     - openshift
     - redis-exporter
@@ -157,4 +153,4 @@ entries:
     urls:
     - https://tonyfieit75.github.io/helm-charts/redis-sentinel-0.16.3.tgz
     version: 0.16.3
-generated: "2024-09-01T01:22:44.953269264Z"
+generated: "2024-12-21T00:24:38.683080457Z"
