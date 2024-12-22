@@ -3,7 +3,7 @@ entries:
   otel-operator:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-12-22T04:01:12.153039824Z"
+    created: "2024-12-22T19:44:31.302313008Z"
     dependencies:
     - alias: operator
       condition: operator.enabled
@@ -13,7 +13,7 @@ entries:
       - operator
       version: 0.64.2
     description: A Helm chart for Opentelemetry Operator
-    digest: ce711754bab9cbc563a4641f25458e43b17581a301f8cfaeeab18102c9a81b3f
+    digest: d0b8e0399a4cbcf8cd474441c442bc52ba4c2659f22a047ca93c1d6e674cabcf
     name: otel-operator
     type: application
     urls:
@@ -22,7 +22,7 @@ entries:
   pga:
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2024-12-22T04:01:12.218991344Z"
+    created: "2024-12-22T19:44:31.380267215Z"
     dependencies:
     - alias: app
       condition: app.enabled
@@ -85,7 +85,7 @@ entries:
   redis:
   - apiVersion: v2
     appVersion: 0.16.0
-    created: "2024-12-22T04:01:12.219783074Z"
+    created: "2024-12-22T19:44:31.381456213Z"
     description: Provides easy redis setup definitions for Kubernetes services, and
       deployment.
     digest: 3c451c1cd898ef16c7395271bd5b33d71d4caa25f57b278bf3d4c4535f6041bc
@@ -109,10 +109,10 @@ entries:
   redis-cluster:
   - apiVersion: v2
     appVersion: 0.16.0
-    created: "2024-12-22T04:01:12.220688269Z"
+    created: "2024-12-22T19:44:31.382660398Z"
     description: Provides easy redis setup definitions for Kubernetes services, and
       deployment.
-    digest: 5079f17f70bc887078f3064caf137e726d933f6e860b431457c8c73853f1eac7
+    digest: 00fc7ef8ebfaf6fd2e78fb73b50d5d3e0f82432f64b9414f5cfbbf5c356a93ac
     home: https://github.com/tonyfieit75/z-redis-operator
     icon: https://github.com/tonyfieit75/z-redis-operator/raw/master/static/redis-operator-logo.svg
     keywords:
@@ -133,7 +133,7 @@ entries:
   redis-operator:
   - apiVersion: v2
     appVersion: 0.18.0
-    created: "2024-12-22T04:01:12.24383826Z"
+    created: "2024-12-22T19:44:31.402173025Z"
     dependencies:
     - alias: certmanager
       condition: certmanager.enabled
@@ -161,7 +161,7 @@ entries:
     version: 0.18.1
   - apiVersion: v2
     appVersion: 0.18.0
-    created: "2024-12-22T04:01:12.262005513Z"
+    created: "2024-12-22T19:44:31.422632718Z"
     dependencies:
     - alias: certmanager
       condition: certmanager.enabled
@@ -190,7 +190,7 @@ entries:
   redis-replication:
   - apiVersion: v2
     appVersion: 0.16.2
-    created: "2024-12-22T04:01:12.244613372Z"
+    created: "2024-12-22T19:44:31.403283687Z"
     description: Provides easy redis setup definitions for Kubernetes services, and
       deployment.
     digest: c091cc08c08a5f6cf491e22ffbfa23086041dc807e0fc3024203e1cb66475fab
@@ -214,7 +214,7 @@ entries:
   redis-sentinel:
   - apiVersion: v2
     appVersion: 0.16.3
-    created: "2024-12-22T04:01:12.245375319Z"
+    created: "2024-12-22T19:44:31.404396898Z"
     description: Provides easy redis setup definitions for Kubernetes services, and
       deployment.
     digest: cab5d14cbb27681fc8ff2c74fbd1fa97164d04a52ed7773e87dc3318dc9f87f9
@@ -235,4 +235,4 @@ entries:
     urls:
     - https://tonyfieit75.github.io/helm-charts/redis-sentinel-0.16.3.tgz
     version: 0.16.3
-generated: "2024-12-22T04:01:12.145186408Z"
+generated: "2024-12-22T19:44:31.294974796Z"
